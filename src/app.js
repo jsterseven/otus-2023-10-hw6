@@ -5,8 +5,8 @@
  */
 function getScore(students) {
     let sum = 0;
-    for (let name in students) {
-        sum += students[name];
+    for (let nickname in students) {
+        sum += students[nickname];
     }
     return sum;
 }
